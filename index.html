@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outerity</title>
+    <link rel="shortcut icon"
+        href="https://file.hstatic.net/200000312481/file/basic-logo---outerity-101_f4fa430657d54b988b3ed03e2ee04246.png"
+        type="im age/png">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/framework/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/framework/bootstrap/css/bootstrap.css.map">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_logo">
+            <img src="./assets/img/logo.webp" alt="" class="header_logo" width="70%">
+        </div>
+        <ul class="header_list">
+            <li class="header_item">
+                <a href="./" class="header_list-link">Trang chủ</a>
+            </li>
+            <li class="header_item">
+                <a href="./assets/html/contact.html" class="header_list-link">Bộ sưu tập Tết</a>
+            </li>
+            <li class="header_item">
+                <a href="./assets/html/about.html" class="header_list-link">Giới thiệu</a>
+            </li>
+            <li class="header_item">
+                <a href="./assets/html/product.html" class="header_list-link">Sản Phẩm</a>
+            </li>
+        </ul>
+        <div class="header_img">
+            <button type="button" class="btn btn-outline-danger position-relative">
+
+                Giỏ hàng
+
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                    style="color: #fff;">
+                    99+
+                    <span class="visually-hidden"></span>
+                </span>
+            </button>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/banner.webp" class="d-block w-100 " height="670px" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/collection_banner_cus.webp" class="d-block w-100" height="670px" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/hiii.webp" class="d-block w-100 " height="670px" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon hien" style="background-color: black;"
+                    aria-hidden=" true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon hien" style="background-color: black;"
+                    aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+    <div class="heading  text-center" id="type-js">Tất cả sản phẩm</div>
+
+
+    <div class="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="img">
+                        <img src="./assets/img/hd1.jpg" alt="" class="img-fluid product_imgx" width="255px"
+                            height="255px">
+                    </div>
+
+                    <div class="product_title text-center">
+                        <span>Outerity Hoodie</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+
+                            <a href="" class="btn btn-outline-danger">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog ">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container cart_product">
+                                                <div class="row">
+                                                    <div class="col-sm-2 cart_size">
+                                                        Size
+                                                    </div>
+                                                    <div class="col-sm-2 cart_size">
+                                                        <a href="#" class="cart_link">M</a>
+                                                    </div>
+                                                    <div class="col-sm-2 cart_size">
+                                                        <a href="#" class="cart_link">S</a>
+                                                    </div>
+                                                    <div class="col-sm-2 cart_size">
+                                                        <a href="#" class="cart_link">L</a>
+
+                                                    </div>
+                                                    <div class="col-sm-2 cart_size">
+                                                        <a href="#" class="cart_link">XL</a>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-danger"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/img/hd2.jpg" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Hoodie</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn  btn-outline-danger" data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <!-- The Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/img/hd3.jpg" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Hoodie</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/img/hd4.jpg" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Hoodie</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="./assets/img/polo1.jpg" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Polo</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>ư
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <img src="./assets/img/polo2.jpg" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Polo</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <img src="./assets/img/polo3.jpg" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Polo</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <img src="./assets/img/polo4.jpg" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Polo</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="./assets/img/tee1.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <img src="./assets/img/tee2.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <img src="./assets/img/tee3.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <img src="./assets/img/tee4.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img src="./assets/img/collection_banner_cus.webp" alt="" class="img-fluid" width="100%">
+    <div class="product">
+        <div class="heading h2 text-center">TẾT COLOLECTION</div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3">
+                    <img src="./assets/img/cls5.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Polo Outerity Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/img/cls6.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Polo Swearter Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/img/cls7.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Polo Outerity Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/img/cls8.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Polo Swearter Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="./assets/img/cls1.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Hoodie Collection</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <img src="./assets/img/cls2.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <img src="./assets/img/cls3.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <img src="./assets/img/cls4.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="./assets/img/cd5.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <img src="./assets/img/cd6.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-3">
+                    <img src="./assets/img/cd7.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-3">
+                    <img src="./assets/img/cd8.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="./assets/img/cd1.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <img src="./assets/img/cd2.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-3">
+                    <img src="./assets/img/cd3.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-3">
+                    <img src="./assets/img/cd4.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="./assets/img/cd9.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <img src="./assets/img/cd10.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-3">
+                    <img src="./assets/img/cd11.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-3">
+                    <img src="./assets/img/cd12.webp" alt="" class="img-fluid product_img" width="255px" height="255px">
+                    <div class="product_title text-center">
+                        <span>Outerity Tee Collection Tết</span>
+                        <span>275.000đ <del class="text-danger">350.000đ</del></span>
+                        <div class="product_btn">
+                            <a href="" class="btn btn-outline-danger " data-bs-toggle="modal"
+                                data-bs-target="#myModal">Mua ngay</a>
+
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Đặt mua sản phẩm</h4>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal">X</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-info"
+                                                data-bs-dismiss="modal">Đặt mua</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+    </div>
+    <div class="number d-flex align-items-center">
+        <i class="fa-solid fa-phone icon"></i>
+        <span class="numbers">0393379824</span>
+    </div>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Outerity
+                        </h6>
+                        <p class="text-justify">
+                            Chúng mình xuất hiện để đem tới mọi người một chất lượng áo tốt nhất, với giá thành hấp
+                            dẫn nhất để đưa Outerity đến với tất cả lứa tuổi và khắp mọi vùng miền đất nước.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+
+
+                            <a href="#!" class="text-reset">Tee</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Hoodie</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Swearter</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Polo</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Về chúng tôi
+                        </h6>
+                        <p>
+                            <a href="https://www.facebook.com/outerity/" class="text-reset">Facebook</a>
+                        </p>
+                        <p>
+                            <a href="https://www.tiktok.com/@outerity.sg" class="text-reset">Tiktok</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> TP.HCM VN</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            outerity.local@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i>086 2642568</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="https://www.facebook.com/profile.php?id=100054976621435">Power by
+                huydev</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+</body>
+<script src="./assets/javascript/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>
